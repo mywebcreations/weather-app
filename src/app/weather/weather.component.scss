@@ -1,0 +1,16 @@
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.see-curr-loc {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(3, 3, 5);
+    border-style: none;
+    line-height: 30px;
+    font-size: 13px;
+    color: white;
+}

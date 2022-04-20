@@ -1,0 +1,20 @@
+<mat-card *ngIf="currWeather">
+    <mat-card-header>
+      <mat-card-title>
+          {{currWeather.name}}, {{currWeather.sys.country}}<br />
+          <span class="weather-span">Lon: {{currWeather.coord.lon}} <br />Lat: {{currWeather.coord.lat}}</span>
+      </mat-card-title>
+      <mat-card-subtitle>{{currWeather.weather[0].main}}
+         </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image class="my-img" 
+      src="https://openweathermap.org/img/wn/{{currWeather.weather[0].icon}}@2x.png"
+          [alt]="currWeather.weather[0].main">
+    <mat-card-content>
+      <h1>{{currWeather.main.temp | number:'1.0-0'}} &#8451;</h1>
+      <p>Feels like: {{currWeather.main.feels_like | number:'1.0-0'}} &#8451;</p>
+      <p>Pressure: {{currWeather.main.pressure}} hPa</p>
+      <p>Humidity: {{currWeather.main.humidity}} %</p>
+      <p>Wind: {{currWeather.wind.speed}} m/s</p>
+    </mat-card-content>
+  </mat-card>

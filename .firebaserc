@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "weather-app-4all"
+  },
+  "targets": {
+    "weather-app-4all": {
+      "hosting": {
+        "weather-app-4all": [
+          "weather-app-4all"
+        ]
+      }
+    }
+  }
+}

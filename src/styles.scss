@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+mat-form-field {
+    width: 20%;
+}
+mat-icon {
+    cursor: pointer;
+}
+mat-card {
+    margin-top: 20px;
+    width: 250px;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+.weather-span {
+    font-size: 0.8em;
+    font-style: italic;
+}
+.my-img {
+    width: 282;
+    height: 282;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
