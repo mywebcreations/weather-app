@@ -1,3 +1,15 @@
+
+A very simple weather app that can be used on the web as well as install on mobile; it is still being developed.
+
+It gets its feed from the Open Weather API (https://openweathermap.org/api).
+
+By default, it shows weather information of your current location and you can also enter any city name in the form, click on search and see weather information.
+
+
+
+
+
+
 # WeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
