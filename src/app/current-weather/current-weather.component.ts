@@ -34,4 +34,5 @@ export class CurrentWeatherComponent implements OnInit {
         .subscribe(response => this.currWeather = response as Weather)
   }
 
+
 }

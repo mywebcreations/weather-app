@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -7,6 +8,7 @@ export class GeolocationService {
 
   coords: GeolocationCoordinates | undefined;
   _error: any;
+  _position: Array<number> = [];
 
   constructor() { }
 
@@ -39,6 +41,14 @@ export class GeolocationService {
       }
     )
   } 
+
+  setPosition(lat: number, lon: number){
+    this._position = [lat, lon];
+  }
+
+  getPosition(): Array<number>{
+    return this._position
+  }
 
   handleError(error: any){
     // console.log(error)
