@@ -1,9 +1,15 @@
 
 A very simple weather app that can be used on the web as well as install on mobile; it is still being developed.
 
-It gets its feed from the Open Weather API (https://openweathermap.org/api).
-
 By default, it shows weather information of your current location and you can also enter any city name in the form, click on search and see weather information.
+
+Web Address: https://weather-app-4all.web.app.
+
+To install on mobile, type the web address above in your mobile browser (preferably, Chrome browser). After a few seconds, the "install app" button displays. Click to install the app on your mobile device.
+
+Application gets its data feed from the Open Weather API (https://openweathermap.org/api).
+
+
 
 
 
